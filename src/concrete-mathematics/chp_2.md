@@ -5,7 +5,10 @@
     a(n)*T(n) = b(n)*T(n-1) + c(n)
     s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
     
-    设 S(n) = s(n)*a(n)*T(n) 解 s(n)*b(n) = s(n-1)*a(n-1) 
+    设 ![][S(n) = s(n)*a(n)*T(n)] 解 ![][s(n)*b(n) = s(n-1)*a(n-1)]
+
+[s(n)*b(n) = s(n-1)*a(n-1)]: #math
+[S(n) = s(n)*a(n)*T(n)]: #math
 ```
     可以求出 s(n) 然后 带入S(n)
     S(n) = S(n-1) + s(n)*c(n)
@@ -31,3 +34,5 @@
 ![][|x|]
 
 [|x|]: #math
+
+##3
