@@ -70,12 +70,11 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum_{k=1}^{n}\sum_{k=1}^{n}\frac{a_k}{a_k}]: #math
 
 ##6
-+ ![][f(j)=\sum_k[1<=j<=k<=n]] or ![][f(j)=\sum_k\[1<=j<=k<=n\]] 
++ ![][exp_6.1] 
 + ![][f(j)=\sum_{1<=j<=k}1]
 + ![][f(j)=k]
 
-[f(j)=\sum_k[1<=j<=k<=n]]: #math
-[f(j)=\sum_k\[1<=j<=k<=n\]]: #math
+[exp_6.1]: #math(f(j)=\sum_k[1<=j<=k<=n])
 [f(j)=\sum_{1<=j<=k}1]: #math
 [f(j)=k]: #math
 

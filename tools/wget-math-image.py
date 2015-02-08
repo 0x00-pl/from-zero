@@ -92,6 +92,9 @@ def translate_link(line):
   if method=='math':
     return translate_math_link(exp)
 
+  if method.startswith('math('):
+    return translate_math_link(method[5:-1])
+
   # no method match
   return line
 
