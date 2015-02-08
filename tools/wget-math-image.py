@@ -96,6 +96,11 @@ def translate_file(ifile_name, ofile_name):
   global global_config
   global_config['input']= ifile_name
   global_config['output']= ofile_name
+
+  if os.path.splitext(ifile_name)[1]!='.md':
+    os.system('cp "'+ifile_name+'" "'+ofile_name+'"')
+    return
+
   infile= open(ifile_name, 'r')
   infile_lines= infile.readlines()
   infile.close()
