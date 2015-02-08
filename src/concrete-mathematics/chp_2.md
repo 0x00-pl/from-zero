@@ -65,7 +65,7 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 ##5
 在![][\sum_{k=1}^{n}\sum_{k=1}^{n}\frac{a_k}{a_k}]这里.
 
- 本来j和k是两个不相关的符号,现在都变成k, 这样是不行的.
+ 本来j和k是两个**不相关**的符号,现在都变成k, 这样是不行的.
 
 [\sum_{k=1}^{n}\sum_{k=1}^{n}\frac{a_k}{a_k}]: #math
 
@@ -87,6 +87,10 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\bigtriangledown(x^{\frac{ }{m}})=(x+m-1)x^{\frac{ }{m-1}}-(x-1)x^{\frac{ }{m-1}}]: #math
 [\bigtriangledown(x^{\frac{ }{m}})=mx^{\frac{ }{m-1}}]: #math
 
+##8
++ ![][0\frac{m}{ }=0*-1\frac{m-1}{ }=0]
+
+[0\frac{m}{ }=0*-1\frac{m-1}{ }=0]: #math
 
 
 
