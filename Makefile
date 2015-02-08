@@ -1,4 +1,4 @@
-all:
+all: clean
 	python3 tools/wget-math-image.py src output
 
 clean:
