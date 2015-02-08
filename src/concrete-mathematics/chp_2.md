@@ -78,4 +78,15 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [f(j)=\sum_{1<=j<=k}1]: #math
 [f(j)=k]: #math
 
+##7
++ ![][\bigtriangledown(x^{\frac{ }{m}})=x^{\frac{ }{m}}-(x-1)^{\frac{ }{m}}]
++ ![][\bigtriangledown(x^{\frac{ }{m}})=(x+m-1)x^{\frac{ }{m-1}}-(x-1)x^{\frac{ }{m-1}}]
++ ![][\bigtriangledown(x^{\frac{ }{m}})=mx^{\frac{ }{m-1}}]
+
+[\bigtriangledown(x^{\frac{ }{m}})=x^{\frac{ }{m}}-(x-1)^{\frac{ }{m}}]: #math
+[\bigtriangledown(x^{\frac{ }{m}})=(x+m-1)x^{\frac{ }{m-1}}-(x-1)x^{\frac{ }{m-1}}]: #math
+[\bigtriangledown(x^{\frac{ }{m}})=mx^{\frac{ }{m-1}}]: #math
+
+
+
 
