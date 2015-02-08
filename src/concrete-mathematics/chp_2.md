@@ -50,16 +50,16 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 ##4
 ###a
-+ ![][\sum_{1<=i<=4}\sum_{i<j<=4}\sum_{j<k<=4} a_{ijk}]
++ ![][\sum_{1\leq i\leq 4}\sum_{i<j\leq 4}\sum_{j<k\leq 4} a_{ijk}]
 + ![][((a_{1 2 3}+a_{1 2 4})+a_{1 3 4})+a_{2 3 4}]
 
 ###b
-+ ![][\sum_{1<=k<=4}\sum_{1<=j<k}\sum_{1<=i<j} a_{ijk}]
++ ![][\sum_{1\leq k\leq 4}\sum_{1\leq j<k}\sum_{1\leq i<j} a_{ijk}]
 + ![][a_{1 2 3}+(a_{1 2 4}+(a_{1 3 4}+a_{2 3 4}))]
 
-[\sum_{1<=i<=4}\sum_{i<j<=4}\sum_{j<k<=4} a_{ijk}]: #math
+[\sum_{1\leq i\leq 4}\sum_{i<j\leq 4}\sum_{j<k\leq 4} a_{ijk}]: #math
 [((a_{1 2 3}+a_{1 2 4})+a_{1 3 4})+a_{2 3 4}]: #math
-[\sum_{1<=k<=4}\sum_{1<=j<k}\sum_{1<=i<j} a_{ijk}]: #math
+[\sum_{1\leq k\leq 4}\sum_{1\leq j<k}\sum_{1\leq i<j} a_{ijk}]: #math
 [a_{1 2 3}+(a_{1 2 4}+(a_{1 3 4}+a_{2 3 4}))]: #math
 
 ##5
@@ -71,11 +71,11 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 ##6
 + ![][exp_6.1] 
-+ ![][f(j)=\sum_{1<=j<=k}1]
++ ![][f(j)=\sum_{1\leq j\leq k}1]
 + ![][f(j)=k]
 
-[exp_6.1]: #math(f(j)=\sum_k[1<=j<=k<=n])
-[f(j)=\sum_{1<=j<=k}1]: #math
+[exp_6.1]: #math(f(j)=\sum_k[1\leq j\leq k\leq n])
+[f(j)=\sum_{1\leq j\leq k}1]: #math
 [f(j)=k]: #math
 
 ##7
@@ -96,6 +96,8 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 + ![][x^{\frac{ }{-1}}=\frac{1}{x-1}]
 + ![][x^{\frac{ }{-2}}=\frac{1}{(x-1)(x-2)}]
 + ![][x^{\frac{ }{-3}}=\frac{1}{(x-1)(x-2)(x-3)}]
+
+---
 
 + ![][x^{\frac{ }{2-3}}=x^\frac{ }{2}(x-2)^\frac{ }{-3}]
 + ![][x^{\frac{ }{2-3}}=x(x+1)\frac{1}{(x+1)x(x-1)}]
@@ -120,6 +122,8 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 + ![][u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]
 + ![][u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]
 
+两边是对称的.
+
 [u\Delta v+Ev\Delta u=u(x)\Delta v(x)+Ev(x)\Delta u(x)]: #math
 [u\Delta v+Ev\Delta u=u(x)(v(x+1)-v(x))+v(x+1)(u(x+1)-u(x))]: #math
 [u\Delta v+Ev\Delta u=u(x)v(x+1)-u(x)v(x)+v(x+1)u(x+1)-v(x+1)u(x)]: #math
@@ -129,6 +133,20 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]: #math
 [u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]: #math
 
+##11
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_k b_k]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{1\leq k<n+1}a_k b_k + a_n b_n - a_0 b_0]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}b_{k+1} - a_{k+1}b_k]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]
 
+
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_k b_k]: #math
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{1\leq k<n+1}a_k b_k + a_n b_n - a_0 b_0]: #math
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]: #math
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]: #math
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}b_{k+1} - a_{k+1}b_k]: #math
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]: #math
 
 

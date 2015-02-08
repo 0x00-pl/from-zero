@@ -50,16 +50,16 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 ##4
 ###a
-+ ![][\sum_{1<=i<=4}\sum_{i<j<=4}\sum_{j<k<=4} a_{ijk}]
++ ![][\sum_{1\leq i\leq 4}\sum_{i<j\leq 4}\sum_{j<k\leq 4} a_{ijk}]
 + ![][((a_{1 2 3}+a_{1 2 4})+a_{1 3 4})+a_{2 3 4}]
 
 ###b
-+ ![][\sum_{1<=k<=4}\sum_{1<=j<k}\sum_{1<=i<j} a_{ijk}]
++ ![][\sum_{1\leq k\leq 4}\sum_{1\leq j<k}\sum_{1\leq i<j} a_{ijk}]
 + ![][a_{1 2 3}+(a_{1 2 4}+(a_{1 3 4}+a_{2 3 4}))]
 
-[\sum_{1<=i<=4}\sum_{i<j<=4}\sum_{j<k<=4} a_{ijk}]: chp_2.md.d/1229d1f205fbf8632ff767c446867c2b.gif
+[\sum_{1\leq i\leq 4}\sum_{i<j\leq 4}\sum_{j<k\leq 4} a_{ijk}]: chp_2.md.d/d25ec02f8892ec9db357092958b3fa5b.gif
 [((a_{1 2 3}+a_{1 2 4})+a_{1 3 4})+a_{2 3 4}]: chp_2.md.d/3e2e745cc5ad02126061b2ec24864d47.gif
-[\sum_{1<=k<=4}\sum_{1<=j<k}\sum_{1<=i<j} a_{ijk}]: chp_2.md.d/24621ba5c284e349fcc7c5a3bf14f911.gif
+[\sum_{1\leq k\leq 4}\sum_{1\leq j<k}\sum_{1\leq i<j} a_{ijk}]: chp_2.md.d/f0ff4d278b0cbfe412c6cac5c24e224f.gif
 [a_{1 2 3}+(a_{1 2 4}+(a_{1 3 4}+a_{2 3 4}))]: chp_2.md.d/7e55c06fccd0b6402641b587b383ab21.gif
 
 ##5
@@ -71,11 +71,11 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 ##6
 + ![][exp_6.1] 
-+ ![][f(j)=\sum_{1<=j<=k}1]
++ ![][f(j)=\sum_{1\leq j\leq k}1]
 + ![][f(j)=k]
 
-[exp_6.1]: chp_2.md.d/a7e169528b4b005b99e33b40c86a2fa5.gif
-[f(j)=\sum_{1<=j<=k}1]: chp_2.md.d/813a49e9fa788d5be32eddc678cbe6f3.gif
+[exp_6.1]: chp_2.md.d/362bf49bccca5fd9c59b5c171dc9923b.gif
+[f(j)=\sum_{1\leq j\leq k}1]: chp_2.md.d/174922381995ea314e00460a8d89bb88.gif
 [f(j)=k]: chp_2.md.d/b1bc5b44017c80a71b5d428a8fd5ef05.gif
 
 ##7
@@ -96,6 +96,8 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 + ![][x^{\frac{ }{-1}}=\frac{1}{x-1}]
 + ![][x^{\frac{ }{-2}}=\frac{1}{(x-1)(x-2)}]
 + ![][x^{\frac{ }{-3}}=\frac{1}{(x-1)(x-2)(x-3)}]
+
+---
 
 + ![][x^{\frac{ }{2-3}}=x^\frac{ }{2}(x-2)^\frac{ }{-3}]
 + ![][x^{\frac{ }{2-3}}=x(x+1)\frac{1}{(x+1)x(x-1)}]
@@ -120,6 +122,8 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 + ![][u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]
 + ![][u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]
 
+两边是对称的.
+
 [u\Delta v+Ev\Delta u=u(x)\Delta v(x)+Ev(x)\Delta u(x)]: chp_2.md.d/0529b37343c04a336851e4cb720d5318.gif
 [u\Delta v+Ev\Delta u=u(x)(v(x+1)-v(x))+v(x+1)(u(x+1)-u(x))]: chp_2.md.d/5fbfd76625dd8dc2e183f9cfd904c1c3.gif
 [u\Delta v+Ev\Delta u=u(x)v(x+1)-u(x)v(x)+v(x+1)u(x+1)-v(x+1)u(x)]: chp_2.md.d/2da517209fab72cdcbcee44a7af0b9aa.gif
@@ -129,6 +133,20 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]: chp_2.md.d/8777736562ec65ffd641c06521392ad3.gif
 [u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]: chp_2.md.d/68071082c126262f3afd9e84791d6320.gif
 
+##11
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_k b_k]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{1\leq k<n+1}a_k b_k + a_n b_n - a_0 b_0]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}b_{k+1} - a_{k+1}b_k]
++ ![][\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]
 
+
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_k b_k]: chp_2.md.d/9c3dac04c68f63f4147df00daac26419.gif
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{1\leq k<n+1}a_k b_k + a_n b_n - a_0 b_0]: chp_2.md.d/90c55422500921ecffa79feb4d8c08fd.gif
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-\sum_{0\leq k<n}a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]: chp_2.md.d/90f7cad97d15c59e1e4edf00d8d7c812.gif
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=\sum_{0\leq k<n}a_{k+1}b_k-a_{k+1}b_{k+1} + a_n b_n - a_0 b_0]: chp_2.md.d/a3129f65e20b686be61f3195816bfa5f.gif
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}b_{k+1} - a_{k+1}b_k]: chp_2.md.d/e7b347026c8a8f62a901e0f00bdeaaf5.gif
+[\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]: chp_2.md.d/8c1225388916b6e2841f7cf001d5432b.gif
 
 
