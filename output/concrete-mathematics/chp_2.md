@@ -52,6 +52,7 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 ###a
 + ![][\sum_{1<=i<=4}\sum_{i<j<=4}\sum_{j<k<=4} a_{ijk}]
 + ![][((a_{1 2 3}+a_{1 2 4})+a_{1 3 4})+a_{2 3 4}]
+
 ###b
 + ![][\sum_{1<=k<=4}\sum_{1<=j<k}\sum_{1<=i<j} a_{ijk}]
 + ![][a_{1 2 3}+(a_{1 2 4}+(a_{1 3 4}+a_{2 3 4}))]
@@ -60,4 +61,22 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [((a_{1 2 3}+a_{1 2 4})+a_{1 3 4})+a_{2 3 4}]: chp_2.md.d/3e2e745cc5ad02126061b2ec24864d47.gif
 [\sum_{1<=k<=4}\sum_{1<=j<k}\sum_{1<=i<j} a_{ijk}]: chp_2.md.d/24621ba5c284e349fcc7c5a3bf14f911.gif
 [a_{1 2 3}+(a_{1 2 4}+(a_{1 3 4}+a_{2 3 4}))]: chp_2.md.d/7e55c06fccd0b6402641b587b383ab21.gif
+
+##5
+在![][\sum_{k=1}^{n}\sum_{k=1}^{n}\frac{a_k}{a_k}]这里.
+
+ 本来j和k是两个不相关的符号,现在都变成k, 这样是不行的.
+
+[\sum_{k=1}^{n}\sum_{k=1}^{n}\frac{a_k}{a_k}]: chp_2.md.d/dd3ef02b03d1adb964c7e885308d5cad.gif
+
+##6
++ ![][f(j)=\sum_k[1<=j<=k<=n]] or ![][f(j)=\sum_k\[1<=j<=k<=n\]] 
++ ![][f(j)=\sum_{1<=j<=k}1]
++ ![][f(j)=k]
+
+[f(j)=\sum_k[1<=j<=k<=n]]: chp_2.md.d/a7e169528b4b005b99e33b40c86a2fa5.gif
+[f(j)=\sum_k\[1<=j<=k<=n\]]: chp_2.md.d/2a827e120708bfa1e05791bd62492a5b.gif
+[f(j)=\sum_{1<=j<=k}1]: chp_2.md.d/813a49e9fa788d5be32eddc678cbe6f3.gif
+[f(j)=k]: chp_2.md.d/b1bc5b44017c80a71b5d428a8fd5ef05.gif
+
 
