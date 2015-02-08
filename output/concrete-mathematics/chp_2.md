@@ -10,12 +10,12 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [s(n)*b(n) = s(n-1)*a(n-1)]: chp_2.md.d/278f9e80e628c6e68323b47bee4c1e37.gif
 [S(n) = s(n)*a(n)*T(n)]: chp_2.md.d/99364c580e1be41494923e9409a1cc55.gif
 
-    可以求出 ![][s(n)] 然后 带入![][S(n)]
-    ![][S(n) = S(n-1) + s(n)*c(n)]
-    ![][S(n) = s(0)*a(0)T(0) + \sum_{k=1}^{n} s(k)*c(k)]
-    ![][S(n) = s(1)*b(1)T(0) + \sum_{k=1}^{n} s(k)*c(k)]
+可以求出 ![][s(n)] 然后 带入![][S(n)]
++ ![][S(n) = S(n-1) + s(n)*c(n)]
++ ![][S(n) = s(0)*a(0)T(0) + \sum_{k=1}^{n} s(k)*c(k)]
++ ![][S(n) = s(1)*b(1)T(0) + \sum_{k=1}^{n} s(k)*c(k)]
 
-    原来的![][T(n) = \frac{1}{s(n)a(n)}(s(1)*b(1)T(0) + \sum_{k=1}^{n} s(k)*c(k))]
+原来的![][T(n) = \frac{1}{s(n)a(n)}(s(1)*b(1)T(0) + \sum_{k=1}^{n} s(k)*c(k))]
 
 [s(n)]: chp_2.md.d/1c795d8bf9c86273efb69c4d580a8457.gif
 [S(n)]: chp_2.md.d/b43f9f9ebfb541f8ed7146fcaac57508.gif
