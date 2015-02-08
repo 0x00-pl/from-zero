@@ -88,9 +88,47 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\bigtriangledown(x^{\frac{ }{m}})=mx^{\frac{ }{m-1}}]: chp_2.md.d/36c6a9a355f104b83f907a4e4b9dfbb7.gif
 
 ##8
-+ ![][0\frac{m}{ }=0*-1\frac{m-1}{ }=0]
++ ![][0^{\frac{m}{ }}=0*-1^{\frac{m-1}{ }}=0]
 
-[0\frac{m}{ }=0*-1\frac{m-1}{ }=0]: chp_2.md.d/ab3589221a077fcf093a0af07c7b1318.gif
+[0^{\frac{m}{ }}=0*-1^{\frac{m-1}{ }}=0]: chp_2.md.d/f5f14b6d052e48ff52eeda494aabd9f0.gif
+
+##9
++ ![][x^{\frac{ }{-1}}=\frac{1}{x-1}]
++ ![][x^{\frac{ }{-2}}=\frac{1}{(x-1)(x-2)}]
++ ![][x^{\frac{ }{-3}}=\frac{1}{(x-1)(x-2)(x-3)}]
+
++ ![][x^{\frac{ }{2-3}}=x^\frac{ }{2}(x-2)^\frac{ }{-3}]
++ ![][x^{\frac{ }{2-3}}=x(x+1)\frac{1}{(x+1)x(x-1)}]
++ ![][x^{\frac{ }{2-3}}=\frac{1}{x-1}]
++ ![][x^{\frac{ }{2-3}}=x^\frac{ }{-1}]
+
+[x^{\frac{ }{-1}}=\frac{1}{x-1}]: chp_2.md.d/663282627302af29533c418c12ff9031.gif
+[x^{\frac{ }{-2}}=\frac{1}{(x-1)(x-2)}]: chp_2.md.d/716cb6391fefdc822c1f344ea0f0f371.gif
+[x^{\frac{ }{-3}}=\frac{1}{(x-1)(x-2)(x-3)}]: chp_2.md.d/e148317097559ece27fb288148c65e7e.gif
+[x^{\frac{ }{2-3}}=x^\frac{ }{2}(x-2)^\frac{ }{-3}]: chp_2.md.d/e96c22076e6fc96334015b96ecf92a26.gif
+[x^{\frac{ }{2-3}}=x(x+1)\frac{1}{(x+1)x(x-1)}]: chp_2.md.d/f931832dd581f5f14477fb55560176a7.gif
+[x^{\frac{ }{2-3}}=\frac{1}{x-1}]: chp_2.md.d/228e5db9ed1ca1ad4c0dddbe1a758acd.gif
+[x^{\frac{ }{2-3}}=x^\frac{ }{-1}]: chp_2.md.d/6ca228dbdc5a2e4f8e60db0ddd72ba6b.gif
+
+##10
++ ![][u\Delta v+Ev\Delta u=u(x)\Delta v(x)+Ev(x)\Delta u(x)]
++ ![][u\Delta v+Ev\Delta u=u(x)(v(x+1)-v(x))+v(x+1)(u(x+1)-u(x))]
++ ![][u\Delta v+Ev\Delta u=u(x)v(x+1)-u(x)v(x)+v(x+1)u(x+1)-v(x+1)u(x)]
++ ![][u\Delta v+Ev\Delta u=-u(x)v(x)+v(x+1)u(x+1)]
++ ![][u\Delta v+Ev\Delta u=u(x+1)v(x)-u(x)v(x)+v(x+1)u(x+1)-u(x+1)v(x)]
++ ![][u\Delta v+Ev\Delta u=(u(x+1)-u(x))v(x)+u(x+1)(v(x+1)-v(x))]
++ ![][u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]
++ ![][u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]
+
+[u\Delta v+Ev\Delta u=u(x)\Delta v(x)+Ev(x)\Delta u(x)]: chp_2.md.d/0529b37343c04a336851e4cb720d5318.gif
+[u\Delta v+Ev\Delta u=u(x)(v(x+1)-v(x))+v(x+1)(u(x+1)-u(x))]: chp_2.md.d/5fbfd76625dd8dc2e183f9cfd904c1c3.gif
+[u\Delta v+Ev\Delta u=u(x)v(x+1)-u(x)v(x)+v(x+1)u(x+1)-v(x+1)u(x)]: chp_2.md.d/2da517209fab72cdcbcee44a7af0b9aa.gif
+[u\Delta v+Ev\Delta u=-u(x)v(x)+v(x+1)u(x+1)]: chp_2.md.d/0f90bcf19692fd4a8abeda8065979038.gif
+[u\Delta v+Ev\Delta u=u(x+1)v(x)-u(x)v(x)+v(x+1)u(x+1)-u(x+1)v(x)]: chp_2.md.d/3669a2806be3d907736ee1a9f78f0451.gif
+[u\Delta v+Ev\Delta u=(u(x+1)-u(x))v(x)+u(x+1)(v(x+1)-v(x))]: chp_2.md.d/20c96c34fa4fadd3c5ada2ad2b3b7d83.gif
+[u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]: chp_2.md.d/8777736562ec65ffd641c06521392ad3.gif
+[u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]: chp_2.md.d/68071082c126262f3afd9e84791d6320.gif
+
 
 
 

@@ -88,9 +88,47 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\bigtriangledown(x^{\frac{ }{m}})=mx^{\frac{ }{m-1}}]: #math
 
 ##8
-+ ![][0\frac{m}{ }=0*-1\frac{m-1}{ }=0]
++ ![][0^{\frac{m}{ }}=0*-1^{\frac{m-1}{ }}=0]
 
-[0\frac{m}{ }=0*-1\frac{m-1}{ }=0]: #math
+[0^{\frac{m}{ }}=0*-1^{\frac{m-1}{ }}=0]: #math
+
+##9
++ ![][x^{\frac{ }{-1}}=\frac{1}{x-1}]
++ ![][x^{\frac{ }{-2}}=\frac{1}{(x-1)(x-2)}]
++ ![][x^{\frac{ }{-3}}=\frac{1}{(x-1)(x-2)(x-3)}]
+
++ ![][x^{\frac{ }{2-3}}=x^\frac{ }{2}(x-2)^\frac{ }{-3}]
++ ![][x^{\frac{ }{2-3}}=x(x+1)\frac{1}{(x+1)x(x-1)}]
++ ![][x^{\frac{ }{2-3}}=\frac{1}{x-1}]
++ ![][x^{\frac{ }{2-3}}=x^\frac{ }{-1}]
+
+[x^{\frac{ }{-1}}=\frac{1}{x-1}]: #math
+[x^{\frac{ }{-2}}=\frac{1}{(x-1)(x-2)}]: #math
+[x^{\frac{ }{-3}}=\frac{1}{(x-1)(x-2)(x-3)}]: #math
+[x^{\frac{ }{2-3}}=x^\frac{ }{2}(x-2)^\frac{ }{-3}]: #math
+[x^{\frac{ }{2-3}}=x(x+1)\frac{1}{(x+1)x(x-1)}]: #math
+[x^{\frac{ }{2-3}}=\frac{1}{x-1}]: #math
+[x^{\frac{ }{2-3}}=x^\frac{ }{-1}]: #math
+
+##10
++ ![][u\Delta v+Ev\Delta u=u(x)\Delta v(x)+Ev(x)\Delta u(x)]
++ ![][u\Delta v+Ev\Delta u=u(x)(v(x+1)-v(x))+v(x+1)(u(x+1)-u(x))]
++ ![][u\Delta v+Ev\Delta u=u(x)v(x+1)-u(x)v(x)+v(x+1)u(x+1)-v(x+1)u(x)]
++ ![][u\Delta v+Ev\Delta u=-u(x)v(x)+v(x+1)u(x+1)]
++ ![][u\Delta v+Ev\Delta u=u(x+1)v(x)-u(x)v(x)+v(x+1)u(x+1)-u(x+1)v(x)]
++ ![][u\Delta v+Ev\Delta u=(u(x+1)-u(x))v(x)+u(x+1)(v(x+1)-v(x))]
++ ![][u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]
++ ![][u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]
+
+[u\Delta v+Ev\Delta u=u(x)\Delta v(x)+Ev(x)\Delta u(x)]: #math
+[u\Delta v+Ev\Delta u=u(x)(v(x+1)-v(x))+v(x+1)(u(x+1)-u(x))]: #math
+[u\Delta v+Ev\Delta u=u(x)v(x+1)-u(x)v(x)+v(x+1)u(x+1)-v(x+1)u(x)]: #math
+[u\Delta v+Ev\Delta u=-u(x)v(x)+v(x+1)u(x+1)]: #math
+[u\Delta v+Ev\Delta u=u(x+1)v(x)-u(x)v(x)+v(x+1)u(x+1)-u(x+1)v(x)]: #math
+[u\Delta v+Ev\Delta u=(u(x+1)-u(x))v(x)+u(x+1)(v(x+1)-v(x))]: #math
+[u\Delta v+Ev\Delta u=v(x)\Delta u(x)+Eu(x)\Delta v(x)]: #math
+[u\Delta v+Ev\Delta u=v\Delta u+Eu\Delta v]: #math
+
 
 
 
