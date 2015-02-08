@@ -57,8 +57,11 @@ def gen_math_image_filename(math_exp, image_dir):
   return image_filename
 
 def wget_math_image(math_exp, image_output_filename):
-  wget_prefix= 'wget'
+  if os.path.exists(image_output_filename):
+    print('using exists image', image_output_filename)
+    return
 
+  wget_prefix= 'wget'
   url_prefix= 'http://latex.codecogs.com/gif.latex?'
   image_url= url_prefix + urllib.parse.quote(math_exp)
   image_url= '"'+image_url+'"'

@@ -39,3 +39,15 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [|x|]: chp_2.md.d/cf513decf6e4ace0e25cb1c932aaa049.gif
 
 ##3
+
++ ![][a_{0}]![][a_{1}]![][a_{2}]![][a_{3}]![][a_{4}]![][a_{5}]
++ ![][a_{0}]![][a_{1}]![][a_{4}]
+
+[a_{0}]: chp_2.md.d/c28556537f6fa3e67b9c313fecb1c4bc.gif
+[a_{1}]: chp_2.md.d/8e6ba967645c302e1f2a60ec9c341e5c.gif
+[a_{2}]: chp_2.md.d/0f768ac5d5dea8d93716a27da05871de.gif
+[a_{3}]: chp_2.md.d/a7913eeb6dcd09b24f125da908600585.gif
+[a_{4}]: chp_2.md.d/3245e1e5ae22ab11774bb424bcc68e53.gif
+[a_{5}]: chp_2.md.d/2cd2e15f726fd0f7061a922e3e1c37d5.gif
+
+
