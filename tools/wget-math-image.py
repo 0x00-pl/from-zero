@@ -77,7 +77,7 @@ def translate_math_link(math_exp):
   wget_math_image(math_exp, image_output_filename)
 
   image_filename_base_on_output_file_path= gen_math_image_filename(math_exp, image_output_dirname_base_on_output_file_path)
-  return '['+math_exp+']: '+ urllib.parse.quote(image_filename_base_on_output_file_path)
+  return '['+math_exp+']: '+ urllib.parse.quote(image_filename_base_on_output_file_path) +'\n'
 
 def translate_link(line):
   match_result= re.match('\[(.*)\]: #(.*)', line)
