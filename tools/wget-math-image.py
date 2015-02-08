@@ -71,7 +71,7 @@ def wget_math_image(math_exp, image_output_filename):
 
   os.system(cmd)
 
-def translate_math_link(math_exp):
+def translate_math_link(link_id, math_exp):
   global global_config
   image_output_dirname= gen_dirname_from_filename(global_config['output'])
   _,output_filename= os.path.split(global_config['output'])
@@ -80,20 +80,20 @@ def translate_math_link(math_exp):
   wget_math_image(math_exp, image_output_filename)
 
   image_filename_base_on_output_file_path= gen_math_image_filename(math_exp, image_output_dirname_base_on_output_file_path)
-  return '['+math_exp+']: '+ urllib.parse.quote(image_filename_base_on_output_file_path) +'\n'
+  return '['+link_id+']: '+ urllib.parse.quote(image_filename_base_on_output_file_path) +'\n'
 
 def translate_link(line):
   match_result= re.match('\[(.*)\]: #(.*)', line)
   if match_result==None:
     return line
-  exp= match_result.group(1).strip()
+  link_id= match_result.group(1).strip()
   method= match_result.group(2).strip()
   
   if method=='math':
-    return translate_math_link(exp)
+    return translate_math_link(link_id, link_id)
 
   if method.startswith('math('):
-    return translate_math_link(method[5:-1])
+    return translate_math_link(link_id, method[5:-1])
 
   # no method match
   return line

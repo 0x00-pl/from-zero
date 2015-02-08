@@ -74,7 +74,7 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 + ![][f(j)=\sum_{1<=j<=k}1]
 + ![][f(j)=k]
 
-[f(j)=\sum_k[1<=j<=k<=n]]: chp_2.md.d/a7e169528b4b005b99e33b40c86a2fa5.gif
+[exp_6.1]: chp_2.md.d/a7e169528b4b005b99e33b40c86a2fa5.gif
 [f(j)=\sum_{1<=j<=k}1]: chp_2.md.d/813a49e9fa788d5be32eddc678cbe6f3.gif
 [f(j)=k]: chp_2.md.d/b1bc5b44017c80a71b5d428a8fd5ef05.gif
 
