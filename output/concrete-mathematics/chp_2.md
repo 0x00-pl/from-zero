@@ -150,16 +150,16 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]: chp_2.md.d/8c1225388916b6e2841f7cf001d5432b.gif
 
 ##12
-证明所有![][n\in\mathbb]有一个'k'使![][p(k)=n].
+证明所有![][n\in\mathbb]有一个 `k` 使![][p(k)=n].
 
-'n=2m'或'n=2m+1':
+`n=2m` 或 `n=2m+1` :
 + ![][2m=k+c]
 + ![][k=2m-c]
 
 + ![][2m+1=k-c]
 + ![][k=2m+1+c]
 
-有一个'k'使![][p(k)=n].
+有一个 `k` 使![][p(k)=n].
 
 [n\in\mathbb]: chp_2.md.d/16f3aab2e3c5bf67bfc48fb3f26b77f2.gif
 [p(k)=n]: chp_2.md.d/0e8809bf72bdeead643558e8feeee64e.gif
@@ -168,6 +168,50 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 [2m+1=k-c]: chp_2.md.d/50fab3c468a4417bbfe0e0efc6959a2b.gif
 [k=2m+1+c]: chp_2.md.d/6274af3406afb9120295dc8e3abff722.gif
+
+##13
++ ![][\sum u\Delta v = uv - \sum Ev\delta u]
+
++ ![][u = n^2]
++ ![][\Delta u = 2n+1]
++ ![][v = \frac{(-1)^n}{-2}]
++ ![][\Delta v = (-1)^n]
+
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2} (2n)]
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^n}{2}2n - \sum \frac{(-1)^n}{2}]
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum n(-1)^n - \sum \frac{(-1)^n}{2}]
+
++ ![][u = n]
++ ![][\Delta u = 1]
++ ![][v = \frac{(-1)^n}{-2}]
++ ![][\Delta v = (-1)^n]
+
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - ( n\frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2}*1 ) - \sum \frac{(-1)^n}{2}]
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - n\frac{(-1)^n}{-2} + ( \sum \frac{(-1)^n}{2} - \sum \frac{(-1)^n}{2} )]
++ ![][\sum n^2(-1)^n = (n^2-n) \frac{(-1)^n}{-2}]
++ ![][\sum n^2(-1)^n = \frac{(n-1)n(-1)^n}{-2}]
+
+
+[\sum u\Delta v = uv - \sum Ev\delta u]: chp_2.md.d/c12d3b6b0cc3cb49540333e416c567ed.gif
+[u = n]: chp_2.md.d/668acf6e1a9bd1a89be85495f5471369.gif
+[\Delta u = 1]: chp_2.md.d/c42c0fd8e3ba989a9841ecc348fc2b5b.gif
+[u = n^2]: chp_2.md.d/0cda861b2f3e5e56b4846a34e4ba7421.gif
+[\Delta u = 2n+1]: chp_2.md.d/4c1fb972cae36c9c56036c13ee34583b.gif
+[v = \frac{(-1)^n}{-2}]: chp_2.md.d/ed6c02f0c3c32dafbe3dcbe124f91922.gif
+[\Delta v = (-1)^n]: chp_2.md.d/32edfb04c9f8ebe58fdd0102deb6ee3c.gif
+
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2} (2n)]: chp_2.md.d/8fb93314e222da41609c34dda2386cbd.gif
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^n}{2}2n - \sum \frac{(-1)^n}{2}]: chp_2.md.d/46074818a96af4cc87cc8f6e6aef849d.gif
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum n(-1)^n - \sum \frac{(-1)^n}{2}]: chp_2.md.d/7f23c227f42c97631e03c7a2db0d0cad.gif
+
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - ( n\frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2}*1 ) - \sum \frac{(-1)^n}{2}]: chp_2.md.d/c1439a927a74def7d7b9259bd88a6ee1.gif
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - n\frac{(-1)^n}{-2} + ( \sum \frac{(-1)^n}{2} - \sum \frac{(-1)^n}{2} )]: chp_2.md.d/1cdcc3d95e834ae2ad099fc3e881a39d.gif
+[\sum n^2(-1)^n = (n^2-n) \frac{(-1)^n}{-2}]: chp_2.md.d/b22badec9bdcf2a8f47fefec9c4f7be0.gif
+[\sum n^2(-1)^n = \frac{(n-1)n(-1)^n}{-2}]: chp_2.md.d/3b3d65feea56995f2f1bd0bce9b80004.gif
+
+
+
+
 
 
 

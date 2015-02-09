@@ -150,16 +150,16 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]: #math
 
 ##12
-证明所有![][n\in\mathbb]有一个'k'使![][p(k)=n].
+证明所有![][n\in\mathbb]有一个 `k` 使![][p(k)=n].
 
-'n=2m'或'n=2m+1':
+`n=2m` 或 `n=2m+1` :
 + ![][2m=k+c]
 + ![][k=2m-c]
 
 + ![][2m+1=k-c]
 + ![][k=2m+1+c]
 
-有一个'k'使![][p(k)=n].
+有一个 `k` 使![][p(k)=n].
 
 [n\in\mathbb]: #math
 [p(k)=n]: #math
@@ -168,6 +168,50 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 [2m+1=k-c]: #math
 [k=2m+1+c]: #math
+
+##13
++ ![][\sum u\Delta v = uv - \sum Ev\delta u]
+
++ ![][u = n^2]
++ ![][\Delta u = 2n+1]
++ ![][v = \frac{(-1)^n}{-2}]
++ ![][\Delta v = (-1)^n]
+
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2} (2n)]
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^n}{2}2n - \sum \frac{(-1)^n}{2}]
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum n(-1)^n - \sum \frac{(-1)^n}{2}]
+
++ ![][u = n]
++ ![][\Delta u = 1]
++ ![][v = \frac{(-1)^n}{-2}]
++ ![][\Delta v = (-1)^n]
+
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - ( n\frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2}*1 ) - \sum \frac{(-1)^n}{2}]
++ ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - n\frac{(-1)^n}{-2} + ( \sum \frac{(-1)^n}{2} - \sum \frac{(-1)^n}{2} )]
++ ![][\sum n^2(-1)^n = (n^2-n) \frac{(-1)^n}{-2}]
++ ![][\sum n^2(-1)^n = \frac{(n-1)n(-1)^n}{-2}]
+
+
+[\sum u\Delta v = uv - \sum Ev\delta u]: #math
+[u = n]: #math
+[\Delta u = 1]: #math
+[u = n^2]: #math
+[\Delta u = 2n+1]: #math
+[v = \frac{(-1)^n}{-2}]: #math
+[\Delta v = (-1)^n]: #math
+
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2} (2n)]: #math
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^n}{2}2n - \sum \frac{(-1)^n}{2}]: #math
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum n(-1)^n - \sum \frac{(-1)^n}{2}]: #math
+
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - ( n\frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2}*1 ) - \sum \frac{(-1)^n}{2}]: #math
+[\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - n\frac{(-1)^n}{-2} + ( \sum \frac{(-1)^n}{2} - \sum \frac{(-1)^n}{2} )]: #math
+[\sum n^2(-1)^n = (n^2-n) \frac{(-1)^n}{-2}]: #math
+[\sum n^2(-1)^n = \frac{(n-1)n(-1)^n}{-2}]: #math
+
+
+
+
 
 
 
