@@ -149,4 +149,27 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}b_{k+1} - a_{k+1}b_k]: #math
 [\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]: #math
 
+##12
+证明所有![][n\in\mathbb]有一个'k'使![][p(k)=n].
+
+'n=2m'或'n=2m+1':
++ ![][2m=k+c]
++ ![][k=2m-c]
+
++ ![][2m+1=k-c]
++ ![][k=2m+1+c]
+
+有一个'k'使![][p(k)=n].
+
+[n\in\mathbb]: #math
+[p(k)=n]: #math
+[2m=k+c]: #math
+[k=2m-c]: #math
+
+[2m+1=k-c]: #math
+[k=2m+1+c]: #math
+
+
+
+
 

@@ -149,4 +149,27 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}b_{k+1} - a_{k+1}b_k]: chp_2.md.d/e7b347026c8a8f62a901e0f00bdeaaf5.gif
 [\sum_{0\leq k<n}(a_{k+1}-a_k)b_k=a_n b_n - a_0 b_0 - \sum_{0\leq k<n}a_{k+1}(b_{k+1} - b_k)]: chp_2.md.d/8c1225388916b6e2841f7cf001d5432b.gif
 
+##12
+证明所有![][n\in\mathbb]有一个'k'使![][p(k)=n].
+
+'n=2m'或'n=2m+1':
++ ![][2m=k+c]
++ ![][k=2m-c]
+
++ ![][2m+1=k-c]
++ ![][k=2m+1+c]
+
+有一个'k'使![][p(k)=n].
+
+[n\in\mathbb]: chp_2.md.d/16f3aab2e3c5bf67bfc48fb3f26b77f2.gif
+[p(k)=n]: chp_2.md.d/0e8809bf72bdeead643558e8feeee64e.gif
+[2m=k+c]: chp_2.md.d/bef7c65c5a89f8413db02a5eefb4168e.gif
+[k=2m-c]: chp_2.md.d/79e26400050467538f3b0c434c3fc26d.gif
+
+[2m+1=k-c]: chp_2.md.d/50fab3c468a4417bbfe0e0efc6959a2b.gif
+[k=2m+1+c]: chp_2.md.d/6274af3406afb9120295dc8e3abff722.gif
+
+
+
+
 
