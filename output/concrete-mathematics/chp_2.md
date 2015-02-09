@@ -171,21 +171,21 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 ##13
 + ![][\sum u\Delta v = uv - \sum Ev\delta u]
-
+===
 + ![][u = n^2]
 + ![][\Delta u = 2n+1]
 + ![][v = \frac{(-1)^n}{-2}]
 + ![][\Delta v = (-1)^n]
-
+---
 + ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2} (2n)]
 + ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum \frac{(-1)^n}{2}2n - \sum \frac{(-1)^n}{2}]
 + ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - \sum n(-1)^n - \sum \frac{(-1)^n}{2}]
-
+---
 + ![][u = n]
 + ![][\Delta u = 1]
 + ![][v = \frac{(-1)^n}{-2}]
 + ![][\Delta v = (-1)^n]
-
+---
 + ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - ( n\frac{(-1)^n}{-2} - \sum \frac{(-1)^{n+1}}{-2}*1 ) - \sum \frac{(-1)^n}{2}]
 + ![][\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - n\frac{(-1)^n}{-2} + ( \sum \frac{(-1)^n}{2} - \sum \frac{(-1)^n}{2} )]
 + ![][\sum n^2(-1)^n = (n^2-n) \frac{(-1)^n}{-2}]
