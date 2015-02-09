@@ -170,7 +170,7 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [k=2m+1+c]: #math
 
 ##13
-+ ![][\sum u\Delta v = uv - \sum Ev\delta u]
++ ![][\sum u\Delta v = uv - \sum Ev\Delta u]
 
 ***
 
@@ -216,6 +216,19 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - n\frac{(-1)^n}{-2} + ( \sum \frac{(-1)^n}{2} - \sum \frac{(-1)^n}{2} )]: #math
 [\sum n^2(-1)^n = (n^2-n) \frac{(-1)^n}{-2}]: #math
 [\sum n^2(-1)^n = \frac{(n-1)n(-1)^n}{-2}]: #math
+
+##14
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n} \sum\nolimit_{1\leq k\leq n} 2^k]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}(2^{n+1}-2^j)]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}2^{n+1} - \sum\nolimit_{1\leq j\leq n}2^j]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = n2^{n+1} - 2^{n+1} + 2]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = (n-1)2^{n+1} + 2]
+
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n} \sum\nolimit_{1\leq k\leq n} 2^k]: #math
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}(2^{n+1}-2^j)]: #math
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}2^{n+1} - \sum\nolimit_{1\leq j\leq n}2^j]: #math
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = n2^{n+1} - 2^{n+1} + 2]: #math
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = (n-1)2^{n+1} + 2]: #math
 
 
 

@@ -170,7 +170,7 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [k=2m+1+c]: chp_2.md.d/6274af3406afb9120295dc8e3abff722.gif
 
 ##13
-+ ![][\sum u\Delta v = uv - \sum Ev\delta u]
++ ![][\sum u\Delta v = uv - \sum Ev\Delta u]
 
 ***
 
@@ -216,6 +216,19 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum n^2(-1)^n = n^2 \frac{(-1)^n}{-2} - n\frac{(-1)^n}{-2} + ( \sum \frac{(-1)^n}{2} - \sum \frac{(-1)^n}{2} )]: chp_2.md.d/1cdcc3d95e834ae2ad099fc3e881a39d.gif
 [\sum n^2(-1)^n = (n^2-n) \frac{(-1)^n}{-2}]: chp_2.md.d/b22badec9bdcf2a8f47fefec9c4f7be0.gif
 [\sum n^2(-1)^n = \frac{(n-1)n(-1)^n}{-2}]: chp_2.md.d/3b3d65feea56995f2f1bd0bce9b80004.gif
+
+##14
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n} \sum\nolimit_{1\leq k\leq n} 2^k]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}(2^{n+1}-2^j)]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}2^{n+1} - \sum\nolimit_{1\leq j\leq n}2^j]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = n2^{n+1} - 2^{n+1} + 2]
++ ![][\sum\nolimit_{1\leq j\leq k\leq n} 2^k = (n-1)2^{n+1} + 2]
+
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n} \sum\nolimit_{1\leq k\leq n} 2^k]: chp_2.md.d/8319aedc6755aa19273d152d5cdbcc12.gif
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}(2^{n+1}-2^j)]: chp_2.md.d/2b500688028941c412380133a484fcec.gif
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = \sum\nolimit_{1\leq j\leq n}2^{n+1} - \sum\nolimit_{1\leq j\leq n}2^j]: chp_2.md.d/119b673b4f4e8a632bd02e5e9c2df068.gif
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = n2^{n+1} - 2^{n+1} + 2]: chp_2.md.d/3218cd0916baa951fffe88f579bc0531.gif
+[\sum\nolimit_{1\leq j\leq k\leq n} 2^k = (n-1)2^{n+1} + 2]: chp_2.md.d/7ab1610eeb42e2ed4df5ce0cd8eb00b4.gif
 
 
 
