@@ -230,10 +230,14 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum\nolimit_{1\leq j\leq k\leq n} 2^k = n2^{n+1} - 2^{n+1} + 2]: #math
 [\sum\nolimit_{1\leq j\leq k\leq n} 2^k = (n-1)2^{n+1} + 2]: #math
 
+##15
+式2.33: ![][\sum_{1\leq j\leq k\leq n}a_j a_k = \frac{1}{2}((\sum_{1\leq k\leq n}a_k)^2 + \sum_{1\leq k\leq n}a_k^2)]
+
+![][\\ {\square^3}_n + \square_n = 2\sum_{1\leq j\leq k\leq n} jk \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \sum_{1\leq k\leq n} k^2 \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \square_n \\ {\square^3}_n = (\sum_{1\leq k\leq n} k)^2]
 
 
-
-
+[\sum_{1\leq j\leq k\leq n}a_j a_k = \frac{1}{2}((\sum_{1\leq k\leq n}a_k)^2 + \sum_{1\leq k\leq n}a_k^2)]: #math
+[\\ {\square^3}_n + \square_n = 2\sum_{1\leq j\leq k\leq n} jk \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \sum_{1\leq k\leq n} k^2 \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \square_n \\ {\square^3}_n = (\sum_{1\leq k\leq n} k)^2]: #math
 
 
 

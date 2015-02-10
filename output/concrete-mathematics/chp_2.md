@@ -230,10 +230,14 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 [\sum\nolimit_{1\leq j\leq k\leq n} 2^k = n2^{n+1} - 2^{n+1} + 2]: chp_2.md.d/3218cd0916baa951fffe88f579bc0531.gif
 [\sum\nolimit_{1\leq j\leq k\leq n} 2^k = (n-1)2^{n+1} + 2]: chp_2.md.d/7ab1610eeb42e2ed4df5ce0cd8eb00b4.gif
 
+##15
+式2.33: ![][\sum_{1\leq j\leq k\leq n}a_j a_k = \frac{1}{2}((\sum_{1\leq k\leq n}a_k)^2 + \sum_{1\leq k\leq n}a_k^2)]
+
+![][\\ {\square^3}_n + \square_n = 2\sum_{1\leq j\leq k\leq n} jk \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \sum_{1\leq k\leq n} k^2 \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \square_n \\ {\square^3}_n = (\sum_{1\leq k\leq n} k)^2]
 
 
-
-
+[\sum_{1\leq j\leq k\leq n}a_j a_k = \frac{1}{2}((\sum_{1\leq k\leq n}a_k)^2 + \sum_{1\leq k\leq n}a_k^2)]: chp_2.md.d/d5030450aa6a8c365730ebe292e57429.gif
+[\\ {\square^3}_n + \square_n = 2\sum_{1\leq j\leq k\leq n} jk \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \sum_{1\leq k\leq n} k^2 \\ {\square^3}_n + \square_n = (\sum_{1\leq k\leq n} k)^2 + \square_n \\ {\square^3}_n = (\sum_{1\leq k\leq n} k)^2]: chp_2.md.d/416cfda46549fcaf6c4593437819369a.gif
 
 
 
