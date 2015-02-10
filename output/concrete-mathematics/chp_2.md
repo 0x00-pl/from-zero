@@ -235,10 +235,12 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 
 ![][exp_2.15.1]
 
-
 [\sum_{1\leq j\leq k\leq n}a_j a_k = \frac{1}{2}((\sum_{1\leq k\leq n}a_k)^2 + \sum_{1\leq k\leq n}a_k^2)]: chp_2.md.d/d5030450aa6a8c365730ebe292e57429.gif
 [exp_2.15.1]: chp_2.md.d/de689abe6fac2ee93a13a21bb2a018c4.gif
 
+##16
+![][exp_2.16.1]
 
+[exp_2.16.1]: chp_2.md.d/8a1b801700ad6ffe9596d2e25a9c074c.gif
 
 
