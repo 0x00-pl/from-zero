@@ -241,6 +241,22 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 ##16
 ![][exp_2.16.1]
 
-[exp_2.16.1]: chp_2.md.d/8a1b801700ad6ffe9596d2e25a9c074c.gif
+[exp_2.16.1]: chp_2.md.d/037396c74ab0792dda68ec66a610e4e8.gif
 
+##17
+
+17就不写了 根据地难以加加减减就出来了。
+
+
+##18
+![][\sqrt{(\Re a_k)^2 + (\imath a_k)^2}] 小于 ![][|\Re a_k|] 和 ![][|\imath a_k|] 中的最大值。
+又有![][|\Re a|] 和 ![][|\imath a|] 收敛。
+所以![][\sum_{k\subseteq K} a_k] 收敛。
+
+[\sqrt{(\Re a_k)^2 + (\imath a_k)^2}]: chp_2.md.d/1a1ddc9cc6a9a3a22c9625c15ada584d.gif
+[|\Re a_k|]: chp_2.md.d/05584fdec1e0ade32a6fe1857c6ef18f.gif
+[|\imath a_k|]: chp_2.md.d/3ab214081d2de185b2fd39de52524d25.gif
+[|\Re a|]: chp_2.md.d/d7cb5be64bb12bd2935dcd3f00db35e4.gif
+[|\imath a|]: chp_2.md.d/1f201c9408e6de1eb8c5e103f092d03f.gif
+[\sum_{k\subseteq K} a_k]: chp_2.md.d/5fa0a283917ebdf005e3f99bd26e7c84.gif
 

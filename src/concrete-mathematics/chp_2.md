@@ -241,6 +241,22 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 ##16
 ![][exp_2.16.1]
 
-[exp_2.16.1]: #math(\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = \frac{\prod_{x-m\leq k\leq x}k}{\prod_{x-m-n\leq k\leq x-n}k}\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = \frac{(\prod_{x-m\leq k\leq x}k) *\frac{\prod_{x-n\leq k\leq x}k}{\prod_{x-m\leq k\leq x}k}}{\prod_{x-m-n\leq k\leq x-n}k *\frac{\prod_{x-n\leq k\leq x}k}{\prod_{x-m\leq k\leq x}k}}\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = \frac{\prod_{x-n\leq k\leq x}k}{\prod_{x-m-n\leq k\leq x-m}k}\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = x^{\frac{n}{ }}/(x-m)^{\frac{n}{ }})
+[exp_2.16.1]: #math(\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = \frac{\prod_{x-m\leq k\leq x}k}{\prod_{x-m-n\leq k\leq x-n}k}\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = \frac{(\prod_{x-m\leq k\leq x}k) *\frac{\prod_{x-n\leq k\leq x}k}{\prod_{x-m\leq k\leq x}k}}{(\prod_{x-m-n\leq k\leq x-n}k) *\frac{\prod_{x-n\leq k\leq x}k}{\prod_{x-m\leq k\leq x}k}}\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = \frac{\prod_{x-n\leq k\leq x}k}{\prod_{x-m-n\leq k\leq x-m}k}\\ x^{\frac{m}{ }}/(x-n)^{\frac{m}{ }} = x^{\frac{n}{ }}/(x-m)^{\frac{n}{ }})
 
+##17
+
+17就不写了 根据地难以加加减减就出来了。
+
+
+##18
+![][\sqrt{(\Re a_k)^2 + (\imath a_k)^2}] 小于 ![][|\Re a_k|] 和 ![][|\imath a_k|] 中的最大值。
+又有![][|\Re a|] 和 ![][|\imath a|] 收敛。
+所以![][\sum_{k\subseteq K} a_k] 收敛。
+
+[\sqrt{(\Re a_k)^2 + (\imath a_k)^2}]: #math
+[|\Re a_k|]: #math
+[|\imath a_k|]: #math
+[|\Re a|]: #math
+[|\imath a|]: #math
+[\sum_{k\subseteq K} a_k]: #math
 
