@@ -241,6 +241,9 @@ s(n)*a(n)*T(n) = s(n)*b(n)*T(n-1) + s(n)*c(n)
 ##16
 ![][exp_2.16.1]
 
-[exp_2.16.1]: chp_2.md.d/8a1b801700ad6ffe9596d2e25a9c074c.gif
+[exp_2.16.1]: chp_2.md.d/037396c74ab0792dda68ec66a610e4e8.gif
+
+##17
+
 
 
